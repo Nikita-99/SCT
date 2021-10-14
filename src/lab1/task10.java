@@ -2,11 +2,12 @@ package lab1;
 
 public class task10 {
     public static void main(String[] args) {
-        int mas[] = {15,10,0,-6,-5,3,0,-34,0,32,56,0,24,52};
+        int mas[] = {15, 10, 0, -6, -5, 3, 0, -34, 0, 32, 56, 0, 24, 52};
         System.out.print("Исходный массив: [ ");
         for (int i : mas) {
             System.out.print(i + " ");
         }
+
         System.out.println(" ]");
         int a = mas.length;
         int[] mas2 = new int[a];
