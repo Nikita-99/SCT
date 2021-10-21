@@ -8,8 +8,8 @@ public class cveti {
         Flower carnation = new Carnation(price);
         Flower chamomile = new chamomile(price);
         Flower[] bouquet1 = { rose, chamomile, tulip, carnation };
-        Flower[] bouquet2 = { tulip, tulip, carnation, chamomile };
-        Flower[] bouquet3 = { rose, rose, rose, rose };
+        Flower[] bouquet2 = { carnation, carnation };
+        Flower[] bouquet3 = { rose, rose, rose, rose, rose, rose, rose };
         System.out.print("Количество проданных цветов: ");
         System.out.println(bouquet1.length + bouquet2.length + bouquet3.length);
     }
